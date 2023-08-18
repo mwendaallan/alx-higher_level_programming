@@ -1,0 +1,9 @@
+#!/bin/bash
+# This is a Shell script that runs a Python script specified by the PYFILE environment variable.
+
+# Get the Python file name from the PYFILE environment variable
+python_file="$PYFILE"
+
+# Run the Python script
+python3 "$python_file"
+
